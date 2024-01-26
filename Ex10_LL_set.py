@@ -76,7 +76,7 @@ class LinkedList:
         return temp
     
     def set_value(self, index, value):
-       temp = self.get(index)       # Used to check index is withing the length and find the node to set a value.
+       temp = self.get(index)       # Used to check index is within the length and find the node to set a value.
        if temp is not None:         # .get method returns either None or a node
            temp.value = value       # Set the value to new value.
            return True              
